@@ -1,5 +1,11 @@
 class CharacterController:
-    character = []
+    def __init__(self):
+
 
     def add_character(self,character):
-        self.character.append(character)
+        self.characters.append(character)
+
+
+
+    def check_character_quantity(self,list):
+        if len(list) < 2:
